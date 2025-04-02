@@ -10,11 +10,12 @@ class ViewManager {
         currentView.onShow();
     }
 
-    function switchView(newView as WatchUi.View) as Void {
+    function switchView(newView as WatchUi.View, newDelegate as WatchUi.InputDelegate) as Void {
         if (currentView != null) {
             currentView.onHide();
         }
         currentView = newView;
+        WatchUi.pushView(newView, newDelegate, WatchUi.SLIDE_UP);
         currentView.onShow();
     }
 
