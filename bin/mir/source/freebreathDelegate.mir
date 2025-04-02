@@ -1,0 +1,98 @@
+[ @file = "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/freebreathDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/freebreathDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/freebreathDelegate.mc"; @line = 4; @symbol_classdef = [freebreathDelegate,4,6,24]; @symbol_extends<0> = [WatchUi,4,33,40]; @symbol_extends<1> = [BehaviorDelegate,4,41,57]; ]
+class freebreathDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/freebreathDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/freebreathDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/freebreathDelegate.mc"; @line = 6; @symbol_functiondef = [initialize,6,13,23]; ]
+    function initialize() as Void {
+_Users_mattiarossi_segundaestrella_freebreath_freebreath_source_freebreathDelegate_mc_6_26_8_4_start:
+[ "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/freebreathDelegate.mc" 7 8 ]
+        symbol [ BehaviorDelegate %tmp.2 7 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 7 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_mattiarossi_segundaestrella_freebreath_freebreath_source_freebreathDelegate_mc_6_26_8_4_stop:
+    }
+    [ @file = "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/freebreathDelegate.mc"; @line = 10; @symbol_functiondef = [onMenu,10,13,19]; @symbol_return<0> = [Boolean,10,25,32]; ]
+    function onMenu() as Boolean {
+_Users_mattiarossi_segundaestrella_freebreath_freebreath_source_freebreathDelegate_mc_10_33_14_4_start:
+[ "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/freebreathDelegate.mc" 11 8 ]
+        symbol [ System %tmp.2 11 8 14 ];
+        %tmp.2 = getv ? :System;
+        symbol [ println %tmp.3 11 15 22 ];
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "onMenu";
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/freebreathDelegate.mc" 12 8 ]
+        symbol [ WatchUi %tmp.5 12 8 15 ];
+        %tmp.5 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.6 12 16 24 ];
+        %tmp.6 = getv function %tmp.5 :pushView;
+        symbol [ Rez %tmp.10 12 29 32 ];
+        %tmp.10 = getv ? :Rez;
+        symbol [ Menus %tmp.11 12 33 38 ];
+        %tmp.11 = getv %tmp.10 :Menus;
+        symbol [ MainMenu %tmp.12 12 39 47 ];
+        %tmp.12 = getv function ? %tmp.11 :MainMenu;
+        %tmp.7 = newc %tmp.12 ();
+        symbol [ freebreathMenuDelegate %tmp.16 12 55 77 ];
+        %tmp.16 = getv ? :freebreathMenuDelegate;
+        %tmp.13 = newc %tmp.16 ();
+        symbol [ WatchUi %tmp.17 12 81 88 ];
+        %tmp.17 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.18 12 89 97 ];
+        %tmp.18 = getv %tmp.17 :SLIDE_UP;
+        invoke %tmp.5 %tmp.6(%tmp.7, %tmp.13, %tmp.18);
+[ "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/freebreathDelegate.mc" 13 8 ]
+        %tmp.19 = true;
+        ret %tmp.19;
+_Users_mattiarossi_segundaestrella_freebreath_freebreath_source_freebreathDelegate_mc_10_33_14_4_stop:
+    }
+    [ @file = "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/freebreathDelegate.mc"; @line = 16; @symbol_functiondef = [onSelect,16,13,21]; @symbol_return<0> = [Boolean,16,27,34]; ]
+    function onSelect() as Boolean {
+_Users_mattiarossi_segundaestrella_freebreath_freebreath_source_freebreathDelegate_mc_16_35_20_4_start:
+[ "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/freebreathDelegate.mc" 17 8 ]
+        symbol [ System %tmp.2 17 8 14 ];
+        %tmp.2 = getv ? :System;
+        symbol [ println %tmp.3 17 15 22 ];
+        %tmp.3 = getv function %tmp.2 :println;
+        %tmp.4 = "onSelect";
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/freebreathDelegate.mc" 18 8 ]
+        symbol [ WatchUi %tmp.5 18 8 15 ];
+        %tmp.5 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.6 18 16 24 ];
+        %tmp.6 = getv function %tmp.5 :pushView;
+        symbol [ Rez %tmp.10 18 29 32 ];
+        %tmp.10 = getv ? :Rez;
+        symbol [ Menus %tmp.11 18 33 38 ];
+        %tmp.11 = getv %tmp.10 :Menus;
+        symbol [ MainMenu %tmp.12 18 39 47 ];
+        %tmp.12 = getv function ? %tmp.11 :MainMenu;
+        %tmp.7 = newc %tmp.12 ();
+        symbol [ freebreathMenuDelegate %tmp.16 18 55 77 ];
+        %tmp.16 = getv ? :freebreathMenuDelegate;
+        %tmp.13 = newc %tmp.16 ();
+        symbol [ WatchUi %tmp.17 18 81 88 ];
+        %tmp.17 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_UP %tmp.18 18 89 97 ];
+        %tmp.18 = getv %tmp.17 :SLIDE_UP;
+        invoke %tmp.5 %tmp.6(%tmp.7, %tmp.13, %tmp.18);
+[ "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/freebreathDelegate.mc" 19 8 ]
+        %tmp.19 = true;
+        ret %tmp.19;
+_Users_mattiarossi_segundaestrella_freebreath_freebreath_source_freebreathDelegate_mc_16_35_20_4_stop:
+    }
+}
+[ @file = "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/freebreathDelegate.mc"; @line = 1; ]
+<init> {
+}
