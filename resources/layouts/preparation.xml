@@ -3,7 +3,7 @@
         <circle x="center" y="center" radius="device.screenWidth/2-20" color="Graphics.COLOR_BACKGROUND" />
         <arc x="center" y="center" radius="device.screenWidth/2-15" start_angle="0" end_angle="360" color="Graphics.COLOR_GREEN" id="timerArc" /> -->
          <label id="label1" x="center" y="10%"
-           text="@Strings.landingDescription1" 
+           text="PUPPA" 
            color="Graphics.COLOR_WHITE" 
            font="Graphics.FONT_TINY"
            justification="Graphics.TEXT_JUSTIFY_CENTER" />

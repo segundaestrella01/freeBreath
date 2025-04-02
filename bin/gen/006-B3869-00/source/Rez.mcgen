@@ -23,7 +23,7 @@ module Rez {
         }
 
         function PreparationLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_label1 = new WatchUi.Text({:identifier=>"label1", :color=>Graphics.COLOR_WHITE, :locX=>(208 * 0.5), :locY=>(208 * (10 / 100.0)), :text=>$.Rez.Strings.landingDescription1, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+            var rez_cmp_local_text_label1 = new WatchUi.Text({:identifier=>"label1", :color=>Graphics.COLOR_WHITE, :locX=>(208 * 0.5), :locY=>(208 * (10 / 100.0)), :text=>"PUPPA", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
 
             return [rez_cmp_local_text_label1] as Array<WatchUi.Drawable>;
         }

@@ -2,16 +2,15 @@ import Toybox.Application;
 import Toybox.Lang;
 import Toybox.WatchUi;
 import Toybox.Graphics;
+import Globals;
 
 class freebreathApp extends Application.AppBase {
 
-    var viewManager as ViewManager;
 
     function initialize() {
         AppBase.initialize();
         var mainView = new landingView();
-        // viewManager = new ViewManager();
-        viewManager.initialize(mainView);
+        Globals.viewManager = new ViewManager(mainView);
     }
 
     // onStart() is called on application start up
@@ -29,7 +28,7 @@ class freebreathApp extends Application.AppBase {
     }
 
     function onUpdate(dc as Dc) as Void {
-        viewManager.update(dc);
+        Globals.viewManager.update(dc);
     }
 
 }

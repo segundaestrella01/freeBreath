@@ -1,0 +1,11 @@
+[ @file = "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/Globals.mc"; @line = 1; @symbol_moduledef = [Globals,1,7,14]; ]
+module Globals {
+    [ @file = "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/Globals.mc"; @line = 1; ]
+    <init> {
+    }
+    [ @file = "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/Globals.mc"; @line = 3; @position = 8; @symbol_vardef = [viewManager,3,8,19]; @symbol_type<0> = [ViewManager,3,23,34]; ]
+    var viewManager as ViewManager or Null;
+}
+[ @file = "/Users/mattiarossi/segundaestrella/freebreath/freebreath/source/Globals.mc"; @line = 1; ]
+<init> {
+}
